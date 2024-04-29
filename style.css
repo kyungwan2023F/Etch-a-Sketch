@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.gridRow {
+    display: flex;
+}
+
+.box {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
