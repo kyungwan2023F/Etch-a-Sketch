@@ -13,6 +13,15 @@ for (let i = 0; i < rows; i++) {
 
       // Append the grid item to the grid container
       gridRow.appendChild(square);
+      square.addEventListener('mouseover', function() {
+        square.style.backgroundColor = 'aqua';
+    });
+    
+    square.addEventListener('mouseout', function() {
+        square.style.backgroundColor = '';
+    });
     }
     gridContainer.appendChild(gridRow);
 }
+
+
