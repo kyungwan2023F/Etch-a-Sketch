@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .gridRow {
@@ -10,4 +11,10 @@ body {
 .box {
     border: 1px solid black;
     box-sizing: border-box;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
