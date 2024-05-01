@@ -21,7 +21,10 @@ function createGrid(rows, columns) {
             gridRow.appendChild(square);
 
             square.addEventListener('mouseover', function() {
-                square.style.backgroundColor = 'aqua';
+                var r = Math.floor(Math.random() * 256); // Random number between 0 and 255
+                var g = Math.floor(Math.random() * 256);
+                var b = Math.floor(Math.random() * 256);
+                square.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
             });
 
             square.addEventListener('mouseout', function() {
